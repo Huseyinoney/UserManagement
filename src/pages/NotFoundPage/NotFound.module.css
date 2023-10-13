@@ -1,0 +1,19 @@
+.MainContainer {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.TextContainer {
+    text-align: center;
+    font-size: 10rem;
+}
+.GoBack {
+    font-size: 5rem;
+    color: white;
+}
+.NavTextContainer {
+    text-align: center;
+}

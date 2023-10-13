@@ -1,0 +1,116 @@
+.MainContainer {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.InnerContainer {
+    min-height: 40rem;
+    max-height: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    /* background-color: rgb(218, 217, 217); */
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border:1px solid #484848;
+    box-shadow: 0 0.5rem 0.5rem 1rem #bbbbbb;
+}
+
+.FormContainer {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 3rem;
+    padding-top: 5rem;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.PageTextContainer h2 {
+    font-size: 5rem;
+}
+
+label {
+    text-align: left;
+    font-size: 2rem;
+    color: black;
+}
+
+.Input {
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    width: 40rem;
+}
+
+.EmailContainer,
+.PasswordContainer,
+.NameContainer,
+.PasswordContainer,
+.SurnameContainer,
+.DepartmentContainer,
+.AgeContainer {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+.BtnContainer {
+    display: flex;
+    margin-top: 2rem;
+    width: 30rem;
+    justify-content: center;
+
+}
+
+.Btn {
+    padding: 1rem;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    width: 14rem;
+}
+
+#EnterBtn:hover {
+    background-color: rgb(33, 32, 32);
+    color: aliceblue;
+}
+
+.EntryPageReturn {
+    text-decoration: none;
+    color: rgb(182, 2, 2);
+}
+
+.BottomTextContainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+
+    .InnerContainer {
+        min-width: 80%;
+        max-width: 90%;
+    }
+
+    .Input {
+        width: 30rem;
+    }
+
+}
